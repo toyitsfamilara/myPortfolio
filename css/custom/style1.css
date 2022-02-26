@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Outfit&display=swap');
+
+
+.navbar{
+	background: hsla(284, 80%, 10%, 1);
+	background: linear-gradient(360deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 22%, 36%, 1) 100%);
+	background: -moz-linear-gradient(360deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 22%, 36%, 1) 100%);
+	background: -webkit-linear-gradient(360deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 22%, 36%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052d", endColorstr="#6A4971", GradientType=1 );
+	padding: 0;
+	font-weight: bold;
+
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.nav-item{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-nav{
+	margin-right: 30px;
+	font-family: 'Outfit', sans-serif;
+}
+
+.banner-title{
+	font-family: 'Inspector General', sans-serif;
+	font-size: 3rem;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+
+}
+
+.webdev{
+	font-size: 2rem;
+	font-family: 'Inspector General', sans-serif;
+
+}
+
+.amazing{
+	font-size: 20px;
+	margin-top:10%;
+
+}
+
+
+.about{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 10%;
+	height: 100%;
+}
+
+#about{
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
+}
+
+.about-info{
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.my-image{
+	padding-top: 10px;
+}
+
+.connect{
+	font-size: 20px;
+}
+
+#projects{
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
+}
+
+.projects{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 5%;
+	height: 100%;
+	text-align: center;
+}
+
+.info-projects{
+	margin-top: 50px;
+}
+
+.contact{
+	background-color: #2B1229;
+	color: whitesmoke;
+	padding: 5%;
+	height: 100%;
+	text-align: center;
+
+}
+#contact{
+	color: #995D81 !important;
+	font-size: 3em;
+	font-family: 'Inspector General', sans-serif;
+}
+
+.chat{
+	font-size: 20px;
+}
+
+.form-floating{
+	color: gray;
+}
+
+.btn{
+	margin-top: 10px;
+}
+
+.googlemap{
+	width: 100%;
+}
+
+.map-wrapper{
+	max-width: 500px;
+}
+
+@media (min-width:  544px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 768px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 992px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 3rem;}
+}
+
+@media (min-width: 1200px) {
+	.banner-title, .webdev, #about, #projects, #contact {font-size: 5rem;}
+}
+
+.media .bi{
+	padding: 10px;
+}
+
+.card{
+	color: whitesmoke;
+}
+
+.container .card{
+	margin-top: 5%;
+	background-color: #6E586D;
+	text-shadow: 0 0 3px #F9F4F9;
+}
+
+.inner{
+	overflow: hidden;
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
+
+
+
+input[type=text] {
+	background-color: #E1D3E1;
+}
+input[type=email] {
+	background-color: #E1D3E1;
+}
+input[type=tel] {
+	background-color: #E1D3E1;
+}
+textarea[class=form-control] {
+	background-color: #E1D3E1;
+}
+
+.demo{
+	list-style-type: none;
+
+}
+
+.footer{
+	background-color: #281536;
+	color: whitesmoke;
+	padding: 10px
+}
+
+.lastcol ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+@media (min-width:  200px) {
+	.footer {font-size: 10px;}
+}
+
+@media (min-width: 500px) {
+	.footer {font-size: 10px;}
+}
+
+@media (min-width: 700px) {
+	.footer {font-size: 15px;}
+}
+
+@media (min-width: 1200px) {
+	.footer {font-size: 20px;}
+}
+
+.jumbotron{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    padding-top: 5%;
+    justify-content: center;
+    word-break: break-all;
+}

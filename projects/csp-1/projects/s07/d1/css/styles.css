@@ -1,0 +1,90 @@
+/*Descendant Selector.
+  Select all anchor tags <a>'s nested inside an li
+  li a{
+  	color: pink;
+  }
+footer a{
+	color: pink;
+*/
+
+/*Adjacent Selector
+select only paragraphs that are immediately preceeded by an <h1>
+  h1 + p{
+	color: red;
+  }
+
+h2 + p{
+	color: red;
+}
+*/
+
+/*Direct Descendant
+Select only the li's that are direct children of a div element
+div > li{
+	color: white;
+}
+
+section > h2 {
+	color: pink;
+}
+
+footer > a {
+	border: 2px solid blue;
+}
+
+*/
+
+/*Attribute Selector
+select all input type
+	input[type="text"]{
+		width: 300px;
+		color: red;
+	}
+*/
+
+
+/*Pseudo Classes
+keyword
+
+ a:hover {
+		color: orange;
+		text-decoration: none;
+	}
+*/
+
+/*CSS Units
+  Absolute
+    *px - pixels
+    *pt - point
+  Relative
+    *em - relative to the font-size of the element 
+    (2em means 2 times the size of the current font)
+
+    section {
+	font-size: 30px;
+}
+
+span{
+	font-size: .5em;
+}
+
+    *rem - Relative to the font-size of the root element
+
+body{
+	font-size: 20px;
+}
+
+.sample-size{
+	font-size: 3rem;
+	border: 2px solid green;
+}
+
+div{
+	font-size: 2rem;
+	border: 2px solid green;
+}
+
+*/
+
+
+
